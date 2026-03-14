@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Taller Moto 13 | Centro de Servicios para Motocicletas en Medellín</title>
+  <meta name="description" content="Taller Moto 13 — Centro de Servicios en Medellín, Antioquia. Mantenimiento preventivo y correctivo, diagnóstico electrónico, venta de repuestos y customización de motos. ¡Agenda tu cita hoy!" />
+  <meta name="keywords" content="taller de motos Medellín, mecánica motos Medellín, mantenimiento moto Medellín, repuestos moto Medellín, diagnóstico electrónico moto, customización moto Medellín, Moto 13" />
+  <meta name="author" content="Taller Moto 13 Centro de Servicios" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://tallermoto13.co/" />
+
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://tallermoto13.co/" />
+  <meta property="og:title"       content="Taller Moto 13 | Centro de Servicios — Medellín" />
+  <meta property="og:description" content="Expertos en mantenimiento, diagnóstico electrónico, repuestos y customización de motos en Medellín, Antioquia." />
+  <meta property="og:image"       content="https://tallermoto13.co/og-image.jpg" />
+  <meta property="og:locale"      content="es_CO" />
+
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Taller Moto 13 | Centro de Servicios — Medellín" />
+  <meta name="twitter:description" content="Expertos en mantenimiento, diagnóstico electrónico, repuestos y customización de motos en Medellín." />
+  <meta name="twitter:image"       content="https://tallermoto13.co/og-image.jpg" />
+
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options"        content="DENY" />
+  <meta http-equiv="Referrer-Policy"        content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Permissions-Policy"     content="camera=(), microphone=(), geolocation=()" />
+
+  <!-- JSON-LD — coordenadas reales: lat 6.239368, lng -75.5787277 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "AutoRepair",
+        "@id": "https://tallermoto13.co/#business",
+        "name": "Taller Moto 13 Centro de Servicios",
+        "description": "Centro de servicios especializado en mantenimiento preventivo y correctivo, diagnóstico electrónico, venta de repuestos y customización de motocicletas en Medellín.",
+        "url": "https://tallermoto13.co",
+        "telephone": "+573206672452",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Avenida 33 #63-49",
+          "addressLocality": "Medellín",
+          "addressRegion": "Antioquia",
+          "addressCountry": "CO"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude":  "6.239368",
+          "longitude": "-75.5787277"
+        },
+        "hasMap": "https://maps.app.goo.gl/tAiVpQRLsPfd2DB1A",
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "18:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "14:00" }
+        ],
+        "sameAs": ["https://www.instagram.com/tallermoto13"],
+        "priceRange": "$$",
+        "currenciesAccepted": "COP",
+        "paymentAccepted": "Cash, Nequi, Daviplata, Transferencia"
+      },
+      { "@type": "Service", "name": "Mantenimiento Preventivo de Motos",      "provider": { "@id": "https://tallermoto13.co/#business" } },
+      { "@type": "Service", "name": "Mantenimiento Correctivo de Motos",      "provider": { "@id": "https://tallermoto13.co/#business" } },
+      { "@type": "Service", "name": "Diagnóstico Electrónico de Motocicletas","provider": { "@id": "https://tallermoto13.co/#business" } },
+      { "@type": "Service", "name": "Customización de Motocicletas",           "provider": { "@id": "https://tallermoto13.co/#business" } }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ═══════════════════════ VARIABLES ═══════════════════════ */
+    :root {
+      --black:  #070707;
+      --dark:   #111111;
+      --card:   #181818;
+      --bd:     #242424;
+      --bd2:    #333333;
+      --silver: #d0d0d0;
+      --dim:    #787878;
+      --orange: #f26419;
+      --hot:    #ff7b2c;
+      --fire:   #fbbf24;
+      --white:  #f5f5f5;
+      --fd: 'Bebas Neue', sans-serif;
+      --fb: 'Barlow Condensed', sans-serif;
+      --ease: cubic-bezier(.4,0,.2,1);
+      --t: .3s;
+      --r: 3px;
+    }
+
+    /* ═══════════════════════ RESET ═══════════════════════ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+    body {
+      background: var(--black);
+      color: var(--white);
+      font-family: var(--fb);
+      font-size: 16px;
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    img  { max-width: 100%; height: auto; display: block; }
+    a    { color: inherit; text-decoration: none; }
+    ul   { list-style: none; }
+    button { font-family: var(--fb); cursor: pointer; }
+    ::-webkit-scrollbar { width: 4px; }
+    ::-webkit-scrollbar-track { background: var(--dark); }
+    ::-webkit-scrollbar-thumb { background: var(--orange); border-radius: 2px; }
+
+    /* ═══════════════════════ LAYOUT ═══════════════════════ */
+    .container {
+      width: 100%;
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 clamp(1rem, 5vw, 2rem);
+    }
+
+    /* ═══════════════════════ TYPOGRAPHY ═══════════════════════ */
+    .tag {
+      display: inline-block;
+      font-size: clamp(.6rem, 1.8vw, .72rem);
+      font-weight: 700; letter-spacing: .28em; text-transform: uppercase;
+      color: var(--orange);
+    }
+    .tag::before { content: '— '; }
+
+    .disp { font-family: var(--fd); line-height: .92; letter-spacing: .02em; color: var(--white); }
+    .disp .acc   { color: var(--orange); }
+    .disp .ghost { color: transparent; -webkit-text-stroke: 1px var(--bd2); }
+
+    /* ═══════════════════════ BUTTONS — min 44px touch ═══════════════════════ */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+      min-height: 44px; padding: .75rem 1.7rem;
+      font-family: var(--fb); font-size: clamp(.78rem, 2vw, .88rem);
+      font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
+      border: none; border-radius: var(--r);
+      transition: transform var(--t) var(--ease), box-shadow var(--t) var(--ease), background var(--t);
+      white-space: nowrap;
+    }
+    .btn-fire { background: var(--orange); color: var(--black); }
+    .btn-fire:hover, .btn-fire:focus-visible {
+      background: var(--hot); transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(242,100,25,.45);
+    }
+    .btn-ghost { background: transparent; color: var(--white); border: 1px solid var(--bd2); }
+    .btn-ghost:hover, .btn-ghost:focus-visible {
+      border-color: var(--orange); color: var(--orange); transform: translateY(-2px);
+    }
+    :focus-visible { outline: 2px solid var(--orange); outline-offset: 3px; }
+
+    /* ═══════════════════════ NOISE ═══════════════════════ */
+    body::after {
+      content: ''; position: fixed; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      opacity: .022; pointer-events: none; z-index: 9000;
+    }
+
+    /* ═══════════════════════ REVEAL ═══════════════════════ */
+    .reveal { opacity: 0; transform: translateY(22px); transition: opacity .6s var(--ease), transform .6s var(--ease); }
+    .reveal.in { opacity: 1; transform: none; }
+
+    /* ═══════════════════════ NAVBAR ═══════════════════════ */
+    #nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 500;
+      padding: 1rem 0;
+      transition: background var(--t), padding var(--t), box-shadow var(--t);
+      border-bottom: 1px solid transparent;
+    }
+    #nav.stuck {
+      background: rgba(7,7,7,.97); padding: .6rem 0;
+      border-bottom-color: var(--bd);
+      box-shadow: 0 2px 32px rgba(0,0,0,.6);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    }
+    .nav-wrap { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .nav-logo  { font-family: var(--fd); font-size: clamp(1.3rem,3.5vw,1.6rem); letter-spacing:.05em; line-height:1; flex-shrink:0; }
+    .nav-logo .n { color: var(--orange); }
+
+    .nav-links { display: flex; align-items: center; gap: clamp(.8rem,2vw,1.8rem); }
+    .nav-links a {
+      font-size: clamp(.68rem,1.3vw,.8rem); font-weight: 600;
+      letter-spacing: .16em; text-transform: uppercase; color: var(--dim);
+      transition: color var(--t); position: relative; padding-bottom: 2px; white-space: nowrap;
+    }
+    .nav-links a::after { content:''; position:absolute; bottom:0; left:0; width:0; height:1px; background:var(--orange); transition:width var(--t) var(--ease); }
+    .nav-links a:hover, .nav-links a:focus-visible { color: var(--white); }
+    .nav-links a:hover::after { width: 100%; }
+    .nav-cta {
+      background: var(--orange) !important; color: var(--black) !important;
+      padding: .42rem .95rem; border-radius: var(--r);
+      font-size: clamp(.66rem,1.2vw,.78rem) !important;
+    }
+    .nav-cta:hover { background: var(--hot) !important; }
+    .nav-cta::after { display:none !important; }
+
+    /* Hamburger */
+    .burger {
+      display: none; flex-direction: column; gap: 5px;
+      cursor: pointer; padding: 8px; flex-shrink: 0;
+      border: none; background: none; border-radius: var(--r);
+    }
+    .burger span { display:block; width:22px; height:2px; background:var(--white); border-radius:2px; transition:var(--t) var(--ease); }
+    .burger.on span:nth-child(1) { transform:translateY(7px) rotate(45deg); }
+    .burger.on span:nth-child(2) { opacity:0; transform:scaleX(0); }
+    .burger.on span:nth-child(3) { transform:translateY(-7px) rotate(-45deg); }
+
+    #mob-nav { display:none; flex-direction:column; background:var(--dark); border-top:1px solid var(--bd); }
+    #mob-nav a {
+      padding: .9rem 1.5rem; font-size: .9rem; font-weight: 600;
+      letter-spacing: .15em; text-transform: uppercase; color: var(--dim);
+      transition: color var(--t), background var(--t); border-bottom: 1px solid var(--bd);
+    }
+    #mob-nav a:hover, #mob-nav a:focus-visible { color:var(--orange); background:rgba(242,100,25,.06); }
+    #mob-nav a:last-child { color:var(--orange); font-weight:700; }
+
+    /* ═══════════════════════ HERO ═══════════════════════ */
+    #hero { min-height:100svh; position:relative; display:flex; align-items:center; overflow:hidden; background:var(--black); }
+    .hero-glow {
+      position:absolute; inset:0; pointer-events:none;
+      background:
+        radial-gradient(ellipse 70% 55% at 65% 50%, rgba(242,100,25,.13) 0%, transparent 65%),
+        radial-gradient(ellipse 45% 35% at 85% 25%, rgba(251,191,36,.07) 0%, transparent 55%),
+        radial-gradient(ellipse 35% 45% at 5%  85%, rgba(242,100,25,.07) 0%, transparent 55%);
+      animation: glow 7s ease-in-out infinite alternate;
+    }
+    @keyframes glow { from{opacity:.75;}to{opacity:1;} }
+    .hero-grid-bg {
+      position:absolute; inset:0; pointer-events:none;
+      background-image: linear-gradient(var(--bd) 1px, transparent 1px), linear-gradient(90deg, var(--bd) 1px, transparent 1px);
+      background-size: 52px 52px; opacity:.35;
+      mask-image: radial-gradient(ellipse 75% 75% at 50% 50%, black 20%, transparent 75%);
+    }
+    .hero-deco {
+      position:absolute; right:-1%; top:50%; transform:translateY(-50%);
+      font-family:var(--fd); font-size:clamp(12rem,26vw,26rem);
+      color:transparent; -webkit-text-stroke:1px rgba(242,100,25,.09);
+      line-height:1; pointer-events:none; user-select:none;
+      animation: floatnum 9s ease-in-out infinite alternate;
+    }
+    @keyframes floatnum { from{transform:translateY(-50%)}to{transform:translateY(-52%)} }
+
+    .hero-inner { position:relative; z-index:2; width:100%; padding: clamp(6rem,15vw,9rem) 0 clamp(4rem,10vw,6rem); }
+    .hero-chip {
+      display:inline-flex; align-items:center; gap:.55rem;
+      background:rgba(242,100,25,.1); border:1px solid rgba(242,100,25,.28);
+      padding:.35rem 1rem; border-radius:999px;
+      font-size:clamp(.62rem,1.6vw,.72rem); font-weight:700; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--orange); margin-bottom:1.4rem; animation:fadeup .6s both;
+    }
+    .chip-dot { width:6px;height:6px; background:var(--orange); border-radius:50%; flex-shrink:0; animation:blink 1.6s ease-in-out infinite; }
+    @keyframes blink { 0%,100%{opacity:1;}50%{opacity:.15;} }
+
+    .hero-title { font-size:clamp(3.2rem,9vw,8rem); animation:fadeup .7s .08s both; }
+    .hero-sub {
+      margin-top:1.3rem; font-size:clamp(.88rem,2.2vw,1.05rem); font-weight:400;
+      color:var(--dim); max-width:480px; line-height:1.75; animation:fadeup .7s .16s both;
+    }
+    .hero-sub strong { color:var(--silver); }
+
+    .hero-ctas { display:flex; gap:1rem; flex-wrap:wrap; margin-top:2.2rem; animation:fadeup .7s .24s both; }
+    .hero-ctas .btn { flex:1 1 auto; max-width:260px; }
+
+    .hero-stats {
+      display:grid; grid-template-columns:repeat(4,1fr);
+      gap:.8rem; margin-top:3.5rem; padding-top:2rem;
+      border-top:1px solid var(--bd); animation:fadeup .7s .32s both;
+    }
+    .stat-val { font-family:var(--fd); font-size:clamp(1.5rem,4vw,2.3rem); color:var(--orange); line-height:1; }
+    .stat-lbl { font-size:clamp(.62rem,1.4vw,.72rem); font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--dim); margin-top:.2rem; }
+
+    .scroll-cue {
+      position:absolute; bottom:1.5rem; left:50%; transform:translateX(-50%);
+      display:flex; flex-direction:column; align-items:center; gap:.5rem;
+      font-size:.6rem; font-weight:700; letter-spacing:.28em; text-transform:uppercase;
+      color:var(--dim); z-index:2; animation:bob 2.2s ease-in-out infinite;
+    }
+    .scroll-line { width:1px; height:34px; background:linear-gradient(to bottom, var(--orange), transparent); }
+    @keyframes bob   { 0%,100%{transform:translateX(-50%) translateY(0);}50%{transform:translateX(-50%) translateY(6px);} }
+    @keyframes fadeup{ from{opacity:0;transform:translateY(22px);}to{opacity:1;transform:none;} }
+
+    /* ═══════════════════════ BRAND TICKER ═══════════════════════ */
+    #brands { background:var(--dark); border-top:1px solid var(--bd); border-bottom:1px solid var(--bd); padding:1.2rem 0; overflow:hidden; }
+    .brands-row { display:flex; align-items:center; gap:1rem; }
+    .brands-lbl { font-size:clamp(.6rem,1.5vw,.7rem); font-weight:700; letter-spacing:.25em; text-transform:uppercase; color:var(--dim); white-space:nowrap; flex-shrink:0; padding-right:1.2rem; border-right:1px solid var(--bd); }
+    .brands-track { overflow:hidden; flex:1; mask-image:linear-gradient(90deg,transparent 0%,black 6%,black 94%,transparent 100%); }
+    .brands-tape { display:flex; gap:2rem; align-items:center; animation:tape 22s linear infinite; white-space:nowrap; }
+    @keyframes tape { from{transform:translateX(0);}to{transform:translateX(-50%);} }
+    .b-item { font-family:var(--fd); font-size:.88rem; letter-spacing:.2em; color:var(--dim); flex-shrink:0; transition:color var(--t); }
+    .b-item:hover { color:var(--orange); }
+    .b-sep { color:var(--bd); font-size:.4rem; flex-shrink:0; }
+
+    /* ═══════════════════════ SECTION HEADER ═══════════════════════ */
+    .sec-head { margin-bottom:2.8rem; }
+    .sec-head .tag { margin-bottom:.65rem; }
+    .sec-title { font-size:clamp(2rem,5.5vw,3.8rem); }
+
+    /* ═══════════════════════ SERVICIOS ═══════════════════════ */
+    #servicios { padding:clamp(4rem,8vw,7rem) 0; background:var(--black); }
+    .svc-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:2px; background:var(--bd); border:1.5px solid var(--bd); }
+    .svc-card {
+      background:var(--dark); padding:clamp(1.4rem,4vw,2.5rem) clamp(1.1rem,3vw,2rem);
+      position:relative; overflow:hidden; transition:background var(--t);
+    }
+    .svc-card::after { content:''; position:absolute; bottom:0; left:0; width:0; height:2px; background:var(--orange); transition:width .4s var(--ease); }
+    .svc-card:hover { background:var(--card); }
+    .svc-card:hover::after { width:100%; }
+    .svc-num { position:absolute; top:1rem; right:1.1rem; font-family:var(--fd); font-size:3.2rem; color:rgba(242,100,25,.05); line-height:1; pointer-events:none; user-select:none; transition:color var(--t); }
+    .svc-card:hover .svc-num { color:rgba(242,100,25,.11); }
+    .svc-icon { font-size:1.7rem; margin-bottom:.9rem; }
+    .svc-card h3 { font-family:var(--fd); font-size:clamp(1.15rem,2.8vw,1.55rem); letter-spacing:.03em; color:var(--white); margin-bottom:.55rem; }
+    .svc-card > p { font-size:clamp(.78rem,1.7vw,.88rem); color:var(--dim); line-height:1.7; }
+    .svc-items { margin-top:1rem; display:flex; flex-direction:column; gap:.33rem; }
+    .svc-item { display:flex; align-items:center; gap:.55rem; font-size:clamp(.74rem,1.6vw,.82rem); color:var(--silver); font-weight:500; }
+    .svc-item::before { content:''; width:4px; height:4px; background:var(--orange); border-radius:50%; flex-shrink:0; }
+
+    /* ═══════════════════════ REPUESTOS ═══════════════════════ */
+    #repuestos { padding:clamp(4rem,8vw,7rem) 0; background:var(--dark); }
+    .prod-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; margin-top:2.5rem; }
+    .prod-card {
+      background:var(--card); border:1px solid var(--bd); border-radius:var(--r);
+      padding:clamp(1.2rem,3vw,2rem) clamp(1rem,2.5vw,1.5rem);
+      text-align:center; position:relative; overflow:hidden;
+      transition:border-color var(--t), transform var(--t), box-shadow var(--t);
+    }
+    .prod-card::before { content:''; position:absolute; inset:0; background:radial-gradient(ellipse at 50% 110%, rgba(242,100,25,.09) 0%, transparent 65%); opacity:0; transition:opacity var(--t); }
+    .prod-card:hover { border-color:var(--orange); transform:translateY(-4px); box-shadow:0 12px 36px rgba(242,100,25,.14); }
+    .prod-card:hover::before { opacity:1; }
+    .prod-emoji { font-size:clamp(1.8rem,3.5vw,2.3rem); margin-bottom:.8rem; }
+    .prod-card h4 { font-family:var(--fd); font-size:clamp(1.05rem,2.3vw,1.25rem); letter-spacing:.04em; color:var(--white); margin-bottom:.4rem; }
+    .prod-card p  { font-size:clamp(.74rem,1.5vw,.82rem); color:var(--dim); line-height:1.65; }
+    .prod-badge { display:inline-block; margin-top:.8rem; padding:.18rem .7rem; background:rgba(242,100,25,.1); border:1px solid rgba(242,100,25,.22); border-radius:999px; font-size:clamp(.56rem,1.2vw,.64rem); font-weight:700; letter-spacing:.15em; text-transform:uppercase; color:var(--orange); }
+
+    /* ═══════════════════════ NOSOTROS ═══════════════════════ */
+    #nosotros { padding:clamp(4rem,8vw,7rem) 0; background:var(--black); }
+    .why-grid { display:grid; grid-template-columns:1fr 1fr; gap:clamp(2rem,5vw,5rem); align-items:start; }
+    .why-left > p { font-size:clamp(.83rem,1.8vw,.95rem); color:var(--dim); line-height:1.8; margin:1.2rem 0 1.7rem; }
+    .feat-list { display:flex; flex-direction:column; gap:.75rem; }
+    .feat-row { display:flex; align-items:flex-start; gap:.85rem; padding:clamp(.9rem,2vw,1.2rem); background:var(--dark); border:1px solid var(--bd); border-radius:var(--r); transition:border-color var(--t); }
+    .feat-row:hover { border-color:rgba(242,100,25,.38); }
+    .feat-ico { width:38px; height:38px; flex-shrink:0; background:rgba(242,100,25,.1); border:1px solid rgba(242,100,25,.22); border-radius:var(--r); display:flex; align-items:center; justify-content:center; font-size:1rem; }
+    .feat-txt h4 { font-weight:700; font-size:clamp(.83rem,1.7vw,.93rem); color:var(--white); margin-bottom:.18rem; }
+    .feat-txt p  { font-size:clamp(.74rem,1.5vw,.82rem); color:var(--dim); line-height:1.6; }
+    .testi-card { background:var(--dark); border:1.5px solid var(--bd); border-radius:var(--r); padding:clamp(1.5rem,4vw,2.8rem); position:relative; overflow:hidden; }
+    .testi-card::before { content:'"'; position:absolute; top:-.8rem; left:1.2rem; font-family:var(--fd); font-size:9rem; color:var(--orange); opacity:.06; line-height:1; pointer-events:none; }
+    .testi-stars { color:var(--fire); letter-spacing:2px; font-size:.9rem; }
+    .testi-txt { font-size:clamp(.86rem,1.9vw,1.05rem); font-style:italic; color:var(--silver); line-height:1.8; margin:1rem 0 1.7rem; }
+    .testi-author { display:flex; align-items:center; gap:.9rem; }
+    .testi-av { width:42px; height:42px; border-radius:50%; background:var(--orange); flex-shrink:0; display:flex; align-items:center; justify-content:center; font-family:var(--fd); font-size:1.1rem; color:var(--black); }
+    .testi-name { font-weight:700; font-size:.9rem; color:var(--white); }
+    .testi-meta { font-size:.76rem; color:var(--dim); }
+    .trust-row { display:flex; gap:.6rem; flex-wrap:wrap; margin-top:1.7rem; padding-top:1.7rem; border-top:1px solid var(--bd); }
+    .trust-chip { display:flex; align-items:center; gap:.4rem; padding:.35rem .8rem; background:rgba(242,100,25,.07); border:1px solid rgba(242,100,25,.18); border-radius:var(--r); font-size:clamp(.6rem,1.3vw,.7rem); font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--orange); }
+
+    /* ═══════════════════════ HORARIOS ═══════════════════════ */
+    #horarios { padding:clamp(3.5rem,7vw,5rem) 0; background:var(--dark); border-top:1px solid var(--bd); }
+    .hor-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.1rem; margin-top:2.5rem; }
+    .hor-card { background:var(--card); border:1px solid var(--bd); border-radius:var(--r); padding:clamp(1.2rem,3vw,2rem); }
+    .hor-card h3 { font-family:var(--fd); font-size:clamp(1.05rem,2.5vw,1.35rem); color:var(--orange); letter-spacing:.05em; margin-bottom:.85rem; }
+    .hor-row { display:flex; justify-content:space-between; align-items:center; padding:.4rem 0; border-bottom:1px solid var(--bd); font-size:clamp(.78rem,1.7vw,.9rem); }
+    .hor-row:last-child { border-bottom:none; }
+    .hor-day    { color:var(--dim); }
+    .hor-time   { color:var(--white); font-weight:600; }
+    .hor-closed { color:#f87171; font-weight:600; }
+    .hor-cta    { background:rgba(242,100,25,.06); border-color:rgba(242,100,25,.2); }
+    .hor-cta h3 { color:var(--fire); }
+    .hor-cta p  { font-size:clamp(.76rem,1.6vw,.86rem); color:var(--dim); line-height:1.7; margin-bottom:1.2rem; }
+
+    /* ═══════════════════════ CONTACTO + MAPA ═══════════════════════ */
+    #contacto { padding:clamp(4rem,8vw,7rem) 0; background:var(--black); }
+    .ctc-grid { display:grid; grid-template-columns:1fr 1fr; gap:clamp(2rem,5vw,3rem); margin-top:2.8rem; }
+
+    .map-box {
+      border:1.5px solid var(--bd); border-radius:var(--r);
+      overflow:hidden; position:relative; background:var(--card);
+      /* Aspect ratio adaptable */
+      aspect-ratio:4/3; min-height:260px;
+    }
+    .map-box iframe { width:100%; height:100%; border:none; display:block; filter:invert(92%) hue-rotate(180deg) saturate(.6) brightness(.88); }
+
+    .info-list { display:flex; flex-direction:column; gap:.95rem; margin-bottom:1.7rem; }
+    .info-row  { display:flex; align-items:flex-start; gap:.85rem; }
+    .info-ico  { width:36px; height:36px; flex-shrink:0; background:rgba(242,100,25,.09); border:1px solid rgba(242,100,25,.2); border-radius:var(--r); display:flex; align-items:center; justify-content:center; font-size:.9rem; }
+    .info-lbl  { font-size:clamp(.6rem,1.3vw,.7rem); font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--dim); margin-bottom:.12rem; }
+    .info-val  { font-size:clamp(.83rem,1.8vw,.95rem); color:var(--white); font-weight:600; }
+    .info-val a { color:var(--orange); transition:color var(--t); }
+    .info-val a:hover { color:var(--hot); }
+
+    .fg { margin-bottom:.82rem; }
+    .fg label { display:block; font-size:clamp(.6rem,1.3vw,.7rem); font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--dim); margin-bottom:.33rem; }
+    .fg input, .fg select, .fg textarea {
+      width:100%; background:var(--card); border:1px solid var(--bd); border-radius:var(--r);
+      padding:.7rem .9rem; font-family:var(--fb); font-size:clamp(.83rem,1.8vw,.93rem);
+      color:var(--white); outline:none; transition:border-color var(--t), box-shadow var(--t);
+      -webkit-appearance:none;
+    }
+    .fg input:focus, .fg select:focus, .fg textarea:focus { border-color:var(--orange); box-shadow:0 0 0 3px rgba(242,100,25,.12); }
+    .fg textarea { resize:vertical; min-height:88px; }
+    .fg select   { cursor:pointer; }
+    .fg select option { background:var(--card); }
+    .fg-row { display:grid; grid-template-columns:1fr 1fr; gap:.82rem; }
+
+    .form-msg { display:none; margin-top:.82rem; padding:.7rem 1rem; border-radius:var(--r); font-size:.84rem; font-weight:600; }
+    .form-msg.ok  { background:rgba(74,222,128,.1);  border:1px solid rgba(74,222,128,.3);  color:#4ade80; }
+    .form-msg.err { background:rgba(248,113,113,.1); border:1px solid rgba(248,113,113,.3); color:#f87171; }
+
+    /* ═══════════════════════ FOOTER ═══════════════════════ */
+    footer { background:var(--dark); border-top:1px solid var(--bd); padding:clamp(2.5rem,5vw,3.5rem) 0 1.5rem; }
+    .ft-grid { display:grid; grid-template-columns:2fr 1fr 1fr; gap:clamp(1.5rem,4vw,3rem); padding-bottom:2rem; border-bottom:1px solid var(--bd); margin-bottom:1.3rem; }
+    .ft-brand .nav-logo { font-size:clamp(1.3rem,3.5vw,1.7rem); margin-bottom:.85rem; }
+    .ft-brand p  { font-size:clamp(.76rem,1.6vw,.85rem); color:var(--dim); line-height:1.75; max-width:270px; }
+    .ft-socials  { display:flex; gap:.65rem; margin-top:1rem; flex-wrap:wrap; }
+    .ft-soc { width:36px; height:36px; background:var(--card); border:1px solid var(--bd); border-radius:var(--r); display:flex; align-items:center; justify-content:center; font-size:.9rem; transition:border-color var(--t), background var(--t), transform var(--t); flex-shrink:0; }
+    .ft-soc:hover { border-color:var(--orange); background:rgba(242,100,25,.1); transform:translateY(-2px); }
+    .ft-col h4  { font-size:clamp(.6rem,1.3vw,.7rem); font-weight:700; letter-spacing:.22em; text-transform:uppercase; color:var(--dim); margin-bottom:1rem; }
+    .ft-col ul  { display:flex; flex-direction:column; gap:.5rem; }
+    .ft-col a   { font-size:clamp(.78rem,1.6vw,.88rem); color:var(--dim); transition:color var(--t); }
+    .ft-col a:hover { color:var(--orange); }
+    .ft-bottom  { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; }
+    .ft-bottom p { font-size:clamp(.68rem,1.4vw,.76rem); color:var(--dim); }
+    .ft-legal   { display:flex; gap:1.3rem; flex-wrap:wrap; }
+    .ft-legal a { font-size:clamp(.68rem,1.4vw,.76rem); color:var(--dim); transition:color var(--t); }
+    .ft-legal a:hover { color:var(--orange); }
+
+    /* ═══════════════════════ FLOATING BTNS ═══════════════════════ */
+    .floats { position:fixed; bottom:1.5rem; right:1.2rem; display:flex; flex-direction:column; gap:.65rem; z-index:600; }
+    .fl-btn { width:52px; height:52px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1.35rem; text-decoration:none; box-shadow:0 4px 20px rgba(0,0,0,.5); transition:transform var(--t), box-shadow var(--t); position:relative; }
+    .fl-btn:hover, .fl-btn:focus-visible { transform:scale(1.1) translateY(-2px); }
+    .fl-wa { background:#25d366; box-shadow:0 4px 18px rgba(37,211,102,.4); }
+    .fl-wa:hover { box-shadow:0 8px 28px rgba(37,211,102,.55); }
+    .fl-ig { background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888); box-shadow:0 4px 18px rgba(220,39,67,.4); }
+    .fl-ig:hover { box-shadow:0 8px 28px rgba(220,39,67,.55); }
+    .fl-tip { position:absolute; right:115%; top:50%; transform:translateY(-50%); background:var(--card); border:1px solid var(--bd); padding:.28rem .65rem; border-radius:var(--r); font-size:.68rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; white-space:nowrap; color:var(--white); opacity:0; pointer-events:none; transition:opacity var(--t); }
+    .fl-btn:hover .fl-tip { opacity:1; }
+
+    /* ═══════════════════════════════════════════
+       RESPONSIVE BREAKPOINTS — Mobile-First
+    ═══════════════════════════════════════════ */
+
+    /* ── ≤ 960px — Tablet landscape ── */
+    @media (max-width: 960px) {
+      .hero-deco { display: none; }
+      .why-grid  { grid-template-columns: 1fr; gap: 2.5rem; }
+      .ctc-grid  { grid-template-columns: 1fr; gap: 2.2rem; }
+      .map-box   { aspect-ratio: 16/9; }
+      .hor-grid  { grid-template-columns: 1fr 1fr; }
+      .ft-grid   { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+      .ft-brand  { grid-column: 1 / -1; }
+      .ft-brand p { max-width: 100%; }
+    }
+
+    /* ── ≤ 768px — Tablet portrait ── */
+    @media (max-width: 768px) {
+      .svc-grid  { grid-template-columns: 1fr; }
+      .prod-grid { grid-template-columns: repeat(2, 1fr); }
+      .hero-stats{ grid-template-columns: repeat(2, 1fr); gap: .7rem; }
+      .hor-grid  { grid-template-columns: 1fr; }
+      .ft-grid   { grid-template-columns: 1fr; }
+      .map-box   { aspect-ratio: 16/9; }
+    }
+
+    /* ── ≤ 640px — Móvil grande ── */
+    @media (max-width: 640px) {
+      .nav-links { display: none; }
+      .burger    { display: flex; }
+      .hero-ctas .btn { max-width: none; }
+      .fg-row    { grid-template-columns: 1fr; }
+      .map-box   { aspect-ratio: 4/3; min-height: 240px; }
+      .fl-tip    { display: none; }
+    }
+
+    /* ── ≤ 480px — Móvil mediano ── */
+    @media (max-width: 480px) {
+      .prod-grid { grid-template-columns: 1fr 1fr; }
+      .hero-stats{ grid-template-columns: repeat(2, 1fr); }
+      .svc-card  { padding: 1.3rem 1rem; }
+      .testi-card{ padding: 1.4rem; }
+      .hor-card  { padding: 1.2rem; }
+    }
+
+    /* ── ≤ 380px — Móvil pequeño ── */
+    @media (max-width: 380px) {
+      .prod-grid { grid-template-columns: 1fr; }
+      .hero-stats{ grid-template-columns: 1fr 1fr; }
+      .trust-row { gap: .45rem; }
+      .trust-chip{ font-size: .58rem; padding: .3rem .6rem; }
+      .fl-btn    { width: 46px; height: 46px; font-size: 1.2rem; }
+    }
+
+    /* ── Reduce motion (accesibilidad) ── */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+      .reveal { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════ NAVBAR ═══════════ -->
+<nav id="nav" role="navigation" aria-label="Navegación principal">
+  <div class="container nav-wrap">
+    <a href="#hero" class="nav-logo" aria-label="Inicio — Taller Moto 13">MOTO<span class="n">13</span></a>
+    <ul class="nav-links" role="list">
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#repuestos">Repuestos</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#contacto">Ubicación</a></li>
+      <li><a href="https://wa.me/573206672452?text=Hola%2C%20quiero%20agendar%20un%20servicio%20en%20Moto13" class="nav-cta" rel="noopener noreferrer" target="_blank" aria-label="Agendar cita WhatsApp">Agendar cita</a></li>
+    </ul>
+    <button class="burger" id="burger" aria-expanded="false" aria-label="Abrir menú" aria-controls="mob-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div id="mob-nav" role="menu" aria-hidden="true">
+    <a href="#servicios" role="menuitem">Servicios</a>
+    <a href="#repuestos" role="menuitem">Repuestos</a>
+    <a href="#nosotros"  role="menuitem">Nosotros</a>
+    <a href="#contacto"  role="menuitem">Ubicación</a>
+    <a href="https://wa.me/573206672452?text=Hola%2C%20quiero%20agendar%20un%20servicio" rel="noopener noreferrer" target="_blank" role="menuitem">📲 Agendar cita</a>
+  </div>
+</nav>
+
+<!-- ═══════════ HERO ═══════════ -->
+<section id="hero" aria-label="Bienvenida Taller Moto 13">
+  <div class="hero-glow"    aria-hidden="true"></div>
+  <div class="hero-grid-bg" aria-hidden="true"></div>
+  <div class="hero-deco"    aria-hidden="true">13</div>
+  <div class="container hero-inner">
+    <div class="hero-chip"><span class="chip-dot" aria-hidden="true"></span>Centro de Servicios · Medellín, Antioquia</div>
+    <h1 class="disp hero-title">
+      <span class="acc">Expertos</span><br>
+      <span>en motos</span><br>
+      <span class="ghost">desde el día 1</span>
+    </h1>
+    <p class="hero-sub"><strong>Taller Moto 13</strong> — mantenimiento preventivo y correctivo, diagnóstico electrónico, venta de repuestos y customización. Tu moto siempre encendida en <strong>Medellín</strong>.</p>
+    <div class="hero-ctas">
+      <a href="https://wa.me/573206672452?text=Hola%2C%20quiero%20agendar%20un%20servicio%20en%20Moto13" class="btn btn-fire" rel="noopener noreferrer" target="_blank" aria-label="Agendar cita WhatsApp">📲 Agendar por WhatsApp</a>
+      <a href="#servicios" class="btn btn-ghost" aria-label="Ver servicios">Ver servicios ↓</a>
+    </div>
+    <div class="hero-stats" role="list" aria-label="Estadísticas del taller">
+      <div role="listitem"><div class="stat-val">+10</div><div class="stat-lbl">Años de experiencia</div></div>
+      <div role="listitem"><div class="stat-val">+500</div><div class="stat-lbl">Clientes atendidos</div></div>
+      <div role="listitem"><div class="stat-val">4</div><div class="stat-lbl">Servicios especializados</div></div>
+      <div role="listitem"><div class="stat-val">4.9★</div><div class="stat-lbl">Calificación promedio</div></div>
+    </div>
+  </div>
+  <div class="scroll-cue" aria-hidden="true"><div class="scroll-line"></div><span>Scroll</span></div>
+</section>
+
+<!-- ═══════════ BRAND TICKER ═══════════ -->
+<div id="brands" aria-label="Marcas de repuestos disponibles">
+  <div class="container brands-row">
+    <span class="brands-lbl">Marcas</span>
+    <div class="brands-track" aria-hidden="true">
+      <div class="brands-tape">
+        <span class="b-item">HONDA</span><span class="b-sep">◆</span><span class="b-item">YAMAHA</span><span class="b-sep">◆</span><span class="b-item">SUZUKI</span><span class="b-sep">◆</span><span class="b-item">KAWASAKI</span><span class="b-sep">◆</span><span class="b-item">AKT</span><span class="b-sep">◆</span><span class="b-item">BAJAJ</span><span class="b-sep">◆</span><span class="b-item">KTM</span><span class="b-sep">◆</span><span class="b-item">ROYAL ENFIELD</span><span class="b-sep">◆</span><span class="b-item">HERO</span><span class="b-sep">◆</span><span class="b-item">CASTROL</span><span class="b-sep">◆</span><span class="b-item">MOTUL</span><span class="b-sep">◆</span>
+        <span class="b-item">HONDA</span><span class="b-sep">◆</span><span class="b-item">YAMAHA</span><span class="b-sep">◆</span><span class="b-item">SUZUKI</span><span class="b-sep">◆</span><span class="b-item">KAWASAKI</span><span class="b-sep">◆</span><span class="b-item">AKT</span><span class="b-sep">◆</span><span class="b-item">BAJAJ</span><span class="b-sep">◆</span><span class="b-item">KTM</span><span class="b-sep">◆</span><span class="b-item">ROYAL ENFIELD</span><span class="b-sep">◆</span><span class="b-item">HERO</span><span class="b-sep">◆</span><span class="b-item">CASTROL</span><span class="b-sep">◆</span><span class="b-item">MOTUL</span><span class="b-sep">◆</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ SERVICIOS ═══════════ -->
+<section id="servicios" aria-labelledby="svc-h2">
+  <div class="container">
+    <header class="sec-head reveal">
+      <span class="tag">Lo que hacemos</span>
+      <h2 class="disp sec-title" id="svc-h2">Servicios<br><span class="acc">Especializados</span></h2>
+    </header>
+    <div class="svc-grid" role="list">
+      <article class="svc-card reveal" role="listitem">
+        <span class="svc-num" aria-hidden="true">01</span>
+        <div class="svc-icon" aria-hidden="true">🔧</div>
+        <h3>Mantenimiento Preventivo</h3>
+        <p>Revisión integral antes de que un problema se convierta en avería. Tu moto siempre lista y segura.</p>
+        <ul class="svc-items"><li class="svc-item">Cambio de aceite y filtros</li><li class="svc-item">Ajuste de frenos y transmisión</li><li class="svc-item">Revisión del sistema eléctrico</li><li class="svc-item">Lubricación de cadena y rodamientos</li><li class="svc-item">Calibración de carburador / inyección</li></ul>
+      </article>
+      <article class="svc-card reveal" role="listitem">
+        <span class="svc-num" aria-hidden="true">02</span>
+        <div class="svc-icon" aria-hidden="true">⚙️</div>
+        <h3>Mantenimiento Correctivo</h3>
+        <p>Diagnóstico preciso y reparación definitiva. Fallas menores o reconstrucciones de motor, las resolvemos.</p>
+        <ul class="svc-items"><li class="svc-item">Rectificación y armada de motor</li><li class="svc-item">Reparación del sistema de frenos</li><li class="svc-item">Cambio de suspensión y horquilla</li><li class="svc-item">Reparación eléctrica y cableado</li><li class="svc-item">Cambio de empaquetaduras y sellos</li></ul>
+      </article>
+      <article class="svc-card reveal" role="listitem">
+        <span class="svc-num" aria-hidden="true">03</span>
+        <div class="svc-icon" aria-hidden="true">💻</div>
+        <h3>Diagnóstico Electrónico</h3>
+        <p>Scanner especializado para motos inyectadas. Leemos los códigos de falla y actuamos con precisión.</p>
+        <ul class="svc-items"><li class="svc-item">Lectura de códigos OBD / ECU</li><li class="svc-item">Análisis de sensor de oxígeno y MAP</li><li class="svc-item">Prueba de inyectores y bobinas</li><li class="svc-item">Reset y programación de ECU</li><li class="svc-item">Compatibilidad motos 2010–2025</li></ul>
+      </article>
+      <article class="svc-card reveal" role="listitem">
+        <span class="svc-num" aria-hidden="true">04</span>
+        <div class="svc-icon" aria-hidden="true">🎨</div>
+        <h3>Customización</h3>
+        <p>Transforma tu moto en una obra única. Estética y rendimiento, sin compromiso entre uno y otro.</p>
+        <ul class="svc-items"><li class="svc-item">Modificación de escape libre</li><li class="svc-item">Upgrade de suspensión deportiva</li><li class="svc-item">Iluminación LED y accesorios</li><li class="svc-item">Cambio de manubrios y controles</li><li class="svc-item">Asesoría en estética y pintura</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ REPUESTOS ═══════════ -->
+<section id="repuestos" aria-labelledby="rep-h2">
+  <div class="container">
+    <header class="sec-head reveal">
+      <span class="tag">Tienda integrada</span>
+      <h2 class="disp sec-title" id="rep-h2">Repuestos &amp;<br><span class="acc">Accesorios</span></h2>
+      <p style="margin-top:.85rem;color:var(--dim);font-size:clamp(.83rem,1.9vw,.95rem);max-width:460px;line-height:1.7;">Repuestos originales y alternativos de alta calidad para todas las marcas, disponibles directamente en el taller.</p>
+    </header>
+    <div class="prod-grid" role="list">
+      <article class="prod-card reveal" role="listitem"><div class="prod-emoji" aria-hidden="true">🛢️</div><h4>Aceites &amp; Lubricantes</h4><p>Motul, Castrol, Valvoline y más. Para motor, caja y transmisión de todas las marcas.</p><span class="prod-badge">Stock permanente</span></article>
+      <article class="prod-card reveal" role="listitem"><div class="prod-emoji" aria-hidden="true">⛓️</div><h4>Kits de Arrastre</h4><p>Cadena, piñón corona y libre. Marcas DID, RK, JT Sprockets para mayor durabilidad.</p><span class="prod-badge">Todas las marcas</span></article>
+      <article class="prod-card reveal" role="listitem"><div class="prod-emoji" aria-hidden="true">🛞</div><h4>Llantas</h4><p>Pirelli, Michelin, Metzeler y marcas nacionales para moto urbana y deportiva.</p><span class="prod-badge">Con instalación</span></article>
+      <article class="prod-card reveal" role="listitem"><div class="prod-emoji" aria-hidden="true">🔩</div><h4>Repuestos de Motor</h4><p>Pistones, segmentos, rodamientos, empaques y sellos originales y alternos.</p><span class="prod-badge">Alta calidad</span></article>
+      <article class="prod-card reveal" role="listitem"><div class="prod-emoji" aria-hidden="true">🧴</div><h4>Kit de Limpieza</h4><p>Desengrasantes, ceras, limpiadores de freno y lubricantes spray para tu moto.</p><span class="prod-badge">Disponible</span></article>
+      <article class="prod-card reveal" role="listitem"><div class="prod-emoji" aria-hidden="true">🧲</div><h4>Accesorios</h4><p>Espejos, manubrios, protectores, alforjas y accesorios de seguridad.</p><span class="prod-badge">Amplio catálogo</span></article>
+    </div>
+    <div style="text-align:center;margin-top:2.5rem;" class="reveal">
+      <a href="https://wa.me/573206672452?text=Hola%2C%20quiero%20consultar%20disponibilidad%20de%20repuestos%20en%20Moto13" class="btn btn-ghost" rel="noopener noreferrer" target="_blank" aria-label="Consultar repuestos WhatsApp">📦 Consultar disponibilidad por WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ NOSOTROS ═══════════ -->
+<section id="nosotros" aria-labelledby="nos-h2">
+  <div class="container">
+    <div class="why-grid">
+      <div class="why-left">
+        <span class="tag reveal">Por qué elegirnos</span>
+        <h2 class="disp sec-title reveal" id="nos-h2" style="margin-top:.65rem;">Tu moto en<br><span class="acc">manos expertas</span></h2>
+        <p class="reveal">En Taller Moto 13 no solo reparamos motos — somos moteros que entienden lo que sientes cuando enciendes el motor. Cada trabajo lo hacemos con la seriedad y el rigor que tu moto merece, en el corazón de Medellín.</p>
+        <div class="feat-list">
+          <div class="feat-row reveal"><div class="feat-ico" aria-hidden="true">🎓</div><div class="feat-txt"><h4>Técnicos experimentados</h4><p>Personal con más de 10 años en marcas japonesas, europeas y nacionales.</p></div></div>
+          <div class="feat-row reveal"><div class="feat-ico" aria-hidden="true">⚡</div><div class="feat-txt"><h4>Diagnóstico en 30 minutos</h4><p>Scanner electrónico de última generación. Sabemos qué tiene tu moto antes de abrir un tornillo.</p></div></div>
+          <div class="feat-row reveal"><div class="feat-ico" aria-hidden="true">🛡️</div><div class="feat-txt"><h4>Garantía en mano de obra</h4><p>Todos nuestros servicios tienen garantía escrita. Si algo falla, lo corregimos sin costo adicional.</p></div></div>
+          <div class="feat-row reveal"><div class="feat-ico" aria-hidden="true">💰</div><div class="feat-txt"><h4>Precios transparentes</h4><p>Cotización previa sin sorpresas. Autorizas el trabajo con el precio en mano.</p></div></div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-stars" aria-label="5 de 5 estrellas">★★★★★</div>
+        <p class="testi-txt">"Llevé mi CB500F por un ruido extraño en el motor. En menos de una hora ya tenían el diagnóstico y al día siguiente estaba lista. Precio justo, trabajo impecable y sin sorpresas en la factura. Ya no llevo mi moto a ningún otro lado."</p>
+        <div class="testi-author">
+          <div class="testi-av" aria-hidden="true">JR</div>
+          <div><div class="testi-name">Julián Ríos</div><div class="testi-meta">Honda CB500F · Cliente desde 2022</div></div>
+        </div>
+        <div class="trust-row" role="list">
+          <div class="trust-chip" role="listitem">✓ Garantía escrita</div>
+          <div class="trust-chip" role="listitem">✓ Scanner electrónico</div>
+          <div class="trust-chip" role="listitem">✓ Repuestos originales</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ HORARIOS ═══════════ -->
+<section id="horarios" aria-labelledby="hor-h2">
+  <div class="container">
+    <span class="tag reveal">Cuándo estamos</span>
+    <h2 class="disp reveal" id="hor-h2" style="font-size:clamp(2rem,5vw,3.4rem);margin-top:.65rem;">Horarios de <span class="acc">Atención</span></h2>
+    <div class="hor-grid">
+      <div class="hor-card reveal">
+        <h3>🗓️ Lunes — Viernes</h3>
+        <div class="hor-row"><span class="hor-day">Lunes</span><span class="hor-time">8:00 am – 6:00 pm</span></div>
+        <div class="hor-row"><span class="hor-day">Martes</span><span class="hor-time">8:00 am – 6:00 pm</span></div>
+        <div class="hor-row"><span class="hor-day">Miércoles</span><span class="hor-time">8:00 am – 6:00 pm</span></div>
+        <div class="hor-row"><span class="hor-day">Jueves</span><span class="hor-time">8:00 am – 6:00 pm</span></div>
+        <div class="hor-row"><span class="hor-day">Viernes</span><span class="hor-time">8:00 am – 6:00 pm</span></div>
+      </div>
+      <div class="hor-card reveal">
+        <h3>📅 Fin de semana</h3>
+        <div class="hor-row"><span class="hor-day">Sábado</span><span class="hor-time">8:00 am – 2:00 pm</span></div>
+        <div class="hor-row"><span class="hor-day">Domingo</span><span class="hor-closed">Cerrado</span></div>
+        <div class="hor-row"><span class="hor-day">Festivos</span><span class="hor-closed">Cerrado</span></div>
+      </div>
+      <div class="hor-card hor-cta reveal">
+        <h3>🚨 ¿Moto varada?</h3>
+        <p>Escríbenos por WhatsApp — atendemos emergencias fuera de horario según disponibilidad.</p>
+        <a href="https://wa.me/573206672452?text=Urgencia%3A%20mi%20moto%20qued%C3%B3%20varada%2C%20necesito%20ayuda" class="btn btn-fire" style="width:100%;" rel="noopener noreferrer" target="_blank" aria-label="WhatsApp urgencias">📲 WhatsApp Urgencias</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ CONTACTO + MAPA ═══════════
+     place_id real: 0x8e44297be82f4297:0x9f789bb8090a963d
+     Coordenadas:   lat 6.239368 / lng -75.5787277
+════════════════════════════════════════ -->
+<section id="contacto" aria-labelledby="ctc-h2">
+  <div class="container">
+    <header class="sec-head reveal">
+      <span class="tag">Encuéntranos</span>
+      <h2 class="disp sec-title" id="ctc-h2" style="margin-top:.65rem;">Ubicación &amp;<br><span class="acc">Contacto</span></h2>
+    </header>
+    <div class="ctc-grid">
+
+      <!-- Mapa con place_id real extraído del link compartido -->
+      <div class="map-box reveal" aria-label="Mapa Taller Moto 13, Avenida 33 #63-49, Medellín">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.221388!2d-75.5813026!3d6.2393680!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44297be82f4297%3A0x9f789bb8090a963d!2sMoto%2013!5e0!3m2!1ses!2sco!4v1700000000001!5m2!1ses!2sco"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Taller Moto 13 — Avenida 33 #63-49, Medellín, Antioquia"
+          aria-label="Google Maps — Taller Moto 13 Medellín"
+        ></iframe>
+      </div>
+
+      <div class="reveal">
+        <div class="info-list" aria-label="Datos de contacto">
+          <div class="info-row">
+            <div class="info-ico" aria-hidden="true">📍</div>
+            <div>
+              <div class="info-lbl">Dirección</div>
+              <div class="info-val">
+                <a href="https://maps.app.goo.gl/tAiVpQRLsPfd2DB1A" rel="noopener noreferrer" target="_blank" aria-label="Ver en Google Maps">Avenida 33 #63-49, Medellín, Antioquia</a>
+              </div>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-ico" aria-hidden="true">📲</div>
+            <div>
+              <div class="info-lbl">WhatsApp</div>
+              <div class="info-val"><a href="https://wa.me/573206672452" rel="noopener noreferrer" target="_blank" aria-label="Enviar WhatsApp">+57 320 667 2452</a></div>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-ico" aria-hidden="true">📸</div>
+            <div>
+              <div class="info-lbl">Instagram</div>
+              <div class="info-val"><a href="https://www.instagram.com/tallermoto13" rel="noopener noreferrer" target="_blank" aria-label="Instagram">@tallermoto13</a></div>
+            </div>
+          </div>
+        </div>
+
+        <form id="cform" novalidate aria-label="Formulario de contacto">
+          <div class="fg-row">
+            <div class="fg"><label for="f-name">Nombre</label><input type="text" id="f-name" name="name" placeholder="Tu nombre" maxlength="80" autocomplete="name" required aria-required="true" /></div>
+            <div class="fg"><label for="f-phone">WhatsApp / Teléfono</label><input type="tel" id="f-phone" name="phone" placeholder="+57 300…" maxlength="20" autocomplete="tel" required aria-required="true" /></div>
+          </div>
+          <div class="fg">
+            <label for="f-svc">Servicio de interés</label>
+            <select id="f-svc" name="service" required aria-required="true">
+              <option value="" disabled selected>Selecciona un servicio…</option>
+              <option value="Mantenimiento Preventivo">Mantenimiento Preventivo</option>
+              <option value="Mantenimiento Correctivo">Mantenimiento Correctivo</option>
+              <option value="Diagnóstico Electrónico">Diagnóstico Electrónico</option>
+              <option value="Customización">Customización</option>
+              <option value="Consulta de Repuestos">Consulta de Repuestos</option>
+            </select>
+          </div>
+          <div class="fg"><label for="f-msg">Mensaje (opcional)</label><textarea id="f-msg" name="message" placeholder="Cuéntanos el problema o qué necesitas…" maxlength="500" aria-label="Mensaje opcional"></textarea></div>
+          <!-- Honeypot anti-spam -->
+          <div style="display:none;" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off" /></div>
+          <button type="submit" class="btn btn-fire" style="width:100%;" aria-label="Enviar por WhatsApp">📲 Enviar por WhatsApp</button>
+          <div id="fmsg" class="form-msg" role="alert" aria-live="polite"></div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer role="contentinfo">
+  <div class="container">
+    <div class="ft-grid">
+      <div class="ft-brand">
+        <div class="nav-logo">MOTO<span class="n">13</span></div>
+        <p>Centro de Servicios especializado en mantenimiento, diagnóstico electrónico, repuestos y customización de motocicletas en Medellín, Antioquia.</p>
+        <div class="ft-socials" aria-label="Redes sociales">
+          <a href="https://www.instagram.com/tallermoto13" class="ft-soc" rel="noopener noreferrer" target="_blank" aria-label="Instagram">📸</a>
+          <a href="https://wa.me/573206672452"             class="ft-soc" rel="noopener noreferrer" target="_blank" aria-label="WhatsApp">💬</a>
+          <a href="https://maps.app.goo.gl/tAiVpQRLsPfd2DB1A" class="ft-soc" rel="noopener noreferrer" target="_blank" aria-label="Google Maps">📍</a>
+        </div>
+      </div>
+      <div class="ft-col">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#servicios">Mantenimiento Preventivo</a></li>
+          <li><a href="#servicios">Mantenimiento Correctivo</a></li>
+          <li><a href="#servicios">Diagnóstico Electrónico</a></li>
+          <li><a href="#servicios">Customización</a></li>
+          <li><a href="#repuestos">Repuestos &amp; Accesorios</a></li>
+        </ul>
+      </div>
+      <div class="ft-col">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="https://maps.app.goo.gl/tAiVpQRLsPfd2DB1A" rel="noopener noreferrer" target="_blank">Av. 33 #63-49, Medellín</a></li>
+          <li><a href="https://wa.me/573206672452"                  rel="noopener noreferrer" target="_blank">+57 320 667 2452</a></li>
+          <li><a href="https://www.instagram.com/tallermoto13"      rel="noopener noreferrer" target="_blank">@tallermoto13</a></li>
+          <li><a href="https://maps.app.goo.gl/tAiVpQRLsPfd2DB1A"  rel="noopener noreferrer" target="_blank">Ver en Google Maps</a></li>
+          <li><a href="#horarios">Horarios de atención</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft-bottom">
+      <p>© 2025 Taller Moto 13 Centro de Servicios · Medellín, Antioquia, Colombia</p>
+      <div class="ft-legal">
+        <a href="#" aria-label="Política de privacidad">Privacidad</a>
+        <a href="#" aria-label="Términos y condiciones">Términos</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════════ FLOATING BUTTONS ═══════════ -->
+<div class="floats" role="complementary" aria-label="Contacto rápido">
+  <a href="https://wa.me/573206672452?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20Moto13" class="fl-btn fl-wa" rel="noopener noreferrer" target="_blank" aria-label="WhatsApp">
+    <span aria-hidden="true">💬</span><span class="fl-tip">WhatsApp</span>
+  </a>
+  <a href="https://www.instagram.com/tallermoto13" class="fl-btn fl-ig" rel="noopener noreferrer" target="_blank" aria-label="Instagram">
+    <span aria-hidden="true">📸</span><span class="fl-tip">Instagram</span>
+  </a>
+</div>
+
+<!-- ═══════════ JS ═══════════ -->
+<script>
+"use strict";
+
+/* Sanitizador XSS */
+function sanitize(s){const m={'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":"&#x27;",'/':'&#x2F;'};return String(s).replace(/[&<>"'/]/g,c=>m[c]||c).trim();}
+function isPhone(p){return /^[\d\s+\-()\u00C0-\u024F]{7,20}$/.test(p);}
+function isName(n) {return n.length>=2&&n.length<=80&&!/[<>{}\\|]/.test(n);}
+
+/* Navbar sticky */
+const nav=document.getElementById('nav');
+const syncNav=()=>nav.classList.toggle('stuck',window.scrollY>55);
+window.addEventListener('scroll',syncNav,{passive:true});
+syncNav();
+
+/* Hamburger */
+const burger=document.getElementById('burger'),mobNav=document.getElementById('mob-nav');
+let open=false;
+function setMenu(v){
+  open=v;
+  burger.classList.toggle('on',v);
+  burger.setAttribute('aria-expanded',v);
+  mobNav.setAttribute('aria-hidden',!v);
+  mobNav.style.display=v?'flex':'none';
+}
+burger.addEventListener('click',()=>setMenu(!open));
+burger.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();setMenu(!open);}});
+mobNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>setMenu(false)));
+document.addEventListener('click',e=>{if(open&&!nav.contains(e.target))setMenu(false);});
+
+/* Reveal */
+const io=new IntersectionObserver(entries=>{
+  entries.forEach((entry,i)=>{
+    if(entry.isIntersecting){
+      setTimeout(()=>entry.target.classList.add('in'),(i%4)*80);
+      io.unobserve(entry.target);
+    }
+  });
+},{threshold:0.08,rootMargin:'0px 0px -28px 0px'});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+/* Formulario → WhatsApp con sanitización + honeypot + rate-limit */
+const form=document.getElementById('cform'),fmsg=document.getElementById('fmsg');
+let sends=0,rt=null;
+function msg(type,text){fmsg.className='form-msg '+type;fmsg.textContent=text;fmsg.style.display='block';setTimeout(()=>fmsg.style.display='none',5500);}
+
+form.addEventListener('submit',e=>{
+  e.preventDefault();
+  if(form.querySelector('[name="website"]').value)return;
+  if(++sends>3){msg('err','Demasiados intentos. Espera un momento.');return;}
+  if(!rt)rt=setTimeout(()=>{sends=0;rt=null;},60000);
+  const rn=document.getElementById('f-name').value,
+        rp=document.getElementById('f-phone').value,
+        rs=document.getElementById('f-svc').value,
+        rm=document.getElementById('f-msg').value;
+  if(!rn||!isName(rn)){msg('err','Por favor ingresa tu nombre (mínimo 2 caracteres).');document.getElementById('f-name').focus();return;}
+  if(!rp||!isPhone(rp)){msg('err','Por favor ingresa un número de teléfono válido.');document.getElementById('f-phone').focus();return;}
+  if(!rs){msg('err','Por favor selecciona un servicio.');document.getElementById('f-svc').focus();return;}
+  const text=encodeURIComponent(`Hola Moto 13! 👋\n*Nombre:* ${sanitize(rn)}\n*Teléfono:* ${sanitize(rp)}\n*Servicio:* ${sanitize(rs)}`+(rm?`\n*Mensaje:* ${sanitize(rm)}`:''));
+  window.open(`https://wa.me/573206672452?text=${text}`,'_blank','noopener,noreferrer');
+  msg('ok','✅ Redirigiendo a WhatsApp… ¡Nos vemos pronto!');
+  form.reset();
+});
+</script>
+
+</body>
+</html>
